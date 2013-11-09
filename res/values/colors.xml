@@ -1,0 +1,17 @@
+<resources>
+    <color name="backgroundC">#FFB5C89C</color>
+    <color name="textC">#FFA1917C</color>
+    <color name="userpassC">#1CA1917C</color>
+    <color name="buttonC">#FF78AE31</color>
+    <color name="buttontextC">#FFE2DAD0</color>
+    <color name="inputboxC">#ADFFFFFF</color>
+    <color name="backgroundlightC">#36B5C89C</color>
+    <color name="backgroundmediumC">#96B5C89C</color>
+    <color name="mbuttonC">#FFA1817C</color>
+    <color name="fbuttonC">#CFB5C89C</color>
+    <color name="darkertextC">#FF584B3A</color>
+    
+    
+    <color name="hotnot_selected">#CC000000</color>
+    <color name="hotnot_unselected">#AA000000</color>
+</resources>

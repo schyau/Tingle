@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundlightC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/inputboxC"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@color/textC" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/name_edittext"
+        android:gravity="center_horizontal"
+        android:paddingBottom="35dp"
+        android:text="Hey!  What&apos;s your name?"
+        android:textColor="@color/textC"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/next_button_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/name_edittext"
+        android:layout_below="@id/name_edittext"
+        android:layout_marginTop="10dp"
+        android:background="@color/buttonC"
+        android:padding="5dp"
+        android:text="Next"
+        android:textColor="@color/buttontextC" />
+
+</RelativeLayout>

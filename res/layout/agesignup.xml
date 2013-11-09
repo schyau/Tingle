@@ -1,0 +1,52 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundmediumC"
+    
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    
+    
+     
+    <EditText
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:id="@+id/age_edittext"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/inputboxC"
+        android:layout_centerInParent="true"
+        android:textColor="@color/textC"
+        />
+    
+    <TextView android:id="@+id/age_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How old are you?"
+        android:textColor="@color/textC"
+        android:gravity="center_horizontal"
+        android:layout_above="@id/age_edittext"
+        
+        android:paddingBottom="35dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_marginTop="10dp" 
+        android:padding="5dp"
+        android:textColor="@color/buttontextC"
+        android:id="@+id/next_button_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@color/buttonC"
+        android:layout_below="@id/age_edittext"
+        android:layout_alignRight="@id/age_edittext"
+        />
+        
+        
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/tinglenotification"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/voteLL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/notLL"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/backgroundC"
+                android:orientation="vertical" >
+
+                <!-- A1817C -->
+
+                <TextView
+                    android:id="@+id/sendtingle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="Tingle"
+                    android:textColor="@color/textC"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hotLL"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/textC"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/ignoretingle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="Ignore"
+                    android:textColor="@color/backgroundC"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tinglermessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/voteLL"
+            android:background="@color/backgroundC"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Would you be interested in meeting up?"
+            android:textColor="@color/darkertextC"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/namegenerageLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tinglermessage"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/nameLL"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/backgroundC"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tinglersex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="Female"
+                    android:textColor="@color/textC"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/genderageLL"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/backgroundC"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tinglerage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="23 years old"
+                    android:textColor="@color/textC"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tinglerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/namegenerageLL"
+            android:background="@color/textC"
+            android:gravity="center_horizontal"
+            android:text="Alyssa"
+            android:textColor="@color/backgroundC"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tinglerProfile"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/tinglerName"
+            android:layout_alignParentTop="true"
+            android:background="@color/textC"
+            android:scaleType="fitXY"
+            android:src="@drawable/blankprofile" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/loading_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tingleappicon"
+        android:visibility="gone" />
+
+</RelativeLayout>

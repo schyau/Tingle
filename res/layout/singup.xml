@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/singupRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/genderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/maleLL"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#FFA1817C"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/maleTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="M"
+                        android:textColor="#FFFFFF"
+                        android:textSize="100sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/femaleLL"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#CFB5C89C"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/femaleTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="F"
+                        android:textColor="#FFFFFF"
+                        android:textSize="100sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/profilepicture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/genderLayout"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blankprofile" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/singupLoadingRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/fetchingtinglers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="Pinging Tinglings.  One moment, please."
+            android:textColor="#FFA1817C"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/loadingsingup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/tingleappicon" />
+    </RelativeLayout>
+
+</RelativeLayout>
