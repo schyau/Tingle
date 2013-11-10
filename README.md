@@ -6,7 +6,7 @@ If you've tried online dating, then you understand the onerous task of profile m
 
 The problem is miscommunication.  Dating profiles read more like sales pitches than self descriptions.  Voice intonations, posture, gesticulations, eye contact, and other non verbal subtleties are lost in online messages.  How can we expect to accurately gauge a potential suitor with all this misinformation?
 
-We need to skip the noise caused by profiles and messaging and go directly from signing up to meeting up.
+We need to circumvent the noise caused by profiles and messaging and go directly from signing up to meeting up.
 
 Introducing Tingle.  We here at Tingle like to think differently.  We believe your time is valuable and should be spent engaging in real life encounters.  Skip the profile maintenance, the misleading conversations, and the laborious plans to meet.  Streamline romantic encounters effortlessly.  Sign up now to get your Tingle on!
 
