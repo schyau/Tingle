@@ -8,7 +8,7 @@ The problem is miscommunication.  Dating profiles read more like sales pitches t
 
 We need to skip the noise caused by profiles and messaging and go directly from signing up to meeting up.
 
-Introducing Tingle.  We here at Tingle like to think differently.  We believe your time is valuable and should be spent engaging in real life encounters.  Skip the profile maintenance, the misleading conversations, and the laborious plans to meet.  Engage in romantic encounters.  Sign up now to get your Tingle on!
+Introducing Tingle.  We here at Tingle like to think differently.  We believe your time is valuable and should be spent engaging in real life encounters.  Skip the profile maintenance, the misleading conversations, and the laborious plans to meet.  Engage in romantic encounters effortlessly.  Sign up now to get your Tingle on!
 
 Tingle was a project submitted on November 8th for BbMobile's 2nd Quarterly Hackathon.  We won 3rd place!  There are no plans to continue this project.
 
