@@ -8,7 +8,9 @@ Tingle was a project submitted on November 8th for BbMobile's 2nd Quarterly Hack
 Created by:
 
 Stephen Chyau - Android Afficionado
+
 Mario Delgado - Ninja Designer
+
 Sam Wyman - Backend Guru
 
 
